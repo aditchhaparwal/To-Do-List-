@@ -1,0 +1,43 @@
+#container{
+	
+	width: 360px;
+	margin: 100px auto;
+	background: #e2c4c4;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+}
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
+h1{
+	padding: 10px 20px;
+	margin:0;
+	background: #2980b9;
+	color:#f7f7f7;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto';
+}
+
+li{
+	background: white;
+	height: 40px;
+	line-height: 40x
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
